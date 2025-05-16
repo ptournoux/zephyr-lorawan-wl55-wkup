@@ -119,5 +119,6 @@ The following areas have been identified for further development and optimizatio
 
 *   **Session Key Persistence:** Implement storage of LoRaWAN session keys to avoid re-joining after each device boot.
 *   **GPIO Current Optimization:** Add an appropriate pull-up or pull-down resistor to the reed switch GPIO to minimize current draw in idle states.
+*   **GNSS:** Add positionning system so that it is easier to retrieve in the wild.
 *   **NVS Error Handling:** Implement robust checking and handling for Non-Volatile Storage (NVS) errors.
 *   **Code Refinement:** General code cleanup and refactoring for improved readability and maintainability.
